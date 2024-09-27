@@ -1,0 +1,327 @@
+@media (max-width: 1024px) {
+    .about__images {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .about__column {
+        grid-row: 1;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about__img-right {
+        grid-row: 2;
+    }
+
+    .content-container {
+        max-width: 460px;
+    }
+
+    .game {
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+
+    .game__content {
+        grid-column: 1;
+    }
+
+    .game__form {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .game__images {
+        grid-row: 3 / -2;
+        align-self: end;
+    }
+
+    .game__text {
+        margin-bottom: 25px;
+    }
+
+    .game__title {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .advantages__inner {
+        align-items: center;
+    }
+
+    .advantages__logos {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .buy__img {
+        width: 33%;
+    }
+
+    .buy__content {
+        width: 67%;
+    }
+}
+
+@media (max-width: 990px) {
+    .footer__top {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer__logos {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .footer__policy {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 790px) {
+    .header__inner {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .top__inner {
+        max-width: 429px;
+        padding: 50px;
+    }
+
+    .title {
+        font-size: 40px;
+        line-height: 31px;
+    }
+
+    .link {
+        font-size: 20px;
+        line-height: 2;
+    }
+
+    .game__promo {
+        width: 82px;
+        height: 82px;
+    }
+
+    .game__title {
+        gap: 143px;
+    }
+
+    .game__inner {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .game__promo {
+        position: relative;
+        z-index: 2;
+    }
+
+    .game__images {
+        position: absolute;
+        top: 70px;
+        left: 10px;
+        z-index: 1;
+    }
+
+    .advantages__inner {
+        flex-direction: column;
+    }
+
+    .advantages__images,
+    .advantages__content {
+        width: 100%;
+    }
+
+    .advantages__logos {
+        flex-direction: row;
+        gap: 13px;
+    }
+
+    .advantages__hp {
+        width: 44px;
+    }
+
+    .advantages__logo {
+        width: 176px;
+    }
+
+    .buy {
+        flex-direction: column;
+    }
+
+    .buy__img,
+    .buy__content {
+        width: 100%;
+    }
+
+    .buy__list-platforms {
+        max-width: none;
+    }
+}
+
+@media (max-width: 490px) {
+    .logo img {
+        width: 200px;
+    }
+
+    .social {
+        gap: 28px;
+    }
+
+    .social__link {
+        width: 25px;
+        height: 25px;
+    }
+
+    .top__inner {
+        max-width: 375px;
+        padding: 30px 38px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .link {
+        padding: 10px 50px;
+    }
+
+    .content-container {
+        font-size: 16px;
+        line-height: 2;
+    }
+
+    .about__column {
+        grid-template-columns: 1fr;
+    }
+
+    .about__img {
+        height: 196px;
+    }
+
+    .about__img-right {
+        height: 424px;
+    }
+
+    .advantages__separator {
+        width: 50px;
+        height: 11px;
+    }
+
+    .advantages__separator {
+        margin: 0;
+    }
+
+    .buy__img {
+        height: 198px;
+    }
+
+    .buy__content {
+        padding: 40px 12px;
+    }
+
+    .buy__highlighted {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .buy__list-complect {
+        margin-bottom: 40px;
+    }
+
+    .buy__list-platforms {
+        gap: 41px 56px;
+    }
+}
+
+@media (max-width: 400px) {
+    .top__container {
+        padding: 0;
+        margin: 0;
+    }
+
+    .top__inner {
+        max-width: 100%;
+    }
+
+    .game__promo {
+        width: 62px;
+        height: 62px;
+    }
+
+    .advantages__inner {
+        gap: 40px;
+    }
+
+    .site-list__item {
+        font-size: 16px;
+        margin-bottom: 18px;
+    }
+
+    .advantages__link {
+        margin-top: 22px;
+    }
+
+    .footer__policy-link {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    .slider {
+        clip-path: polygon(0 0, 100% 0, 100% 78%, 85% 100%, 0 100%, 0 21%);
+    }
+
+    .clip-path {
+        clip-path: polygon(15% 0, 100% 0, 100% 78%, 85% 100%, 0 100%, 0 21%);
+    }
+
+    .top__inner {
+        padding: 30px 32px;
+    }
+
+    .link {
+        padding: 10px;
+        width: 240px;
+    }
+
+    .game__images {
+        top: 55px;
+    }
+
+    .game__title {
+        gap: 120px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .game__label span {
+        font-size: 16px;
+    }
+
+    .game__label {
+        padding: 30px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    .game__checkbox label {
+        font-size: 9px;
+    }
+
+    .footer__policy-link {
+        font-size: 14px;
+    }
+}
