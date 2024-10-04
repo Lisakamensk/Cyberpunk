@@ -325,3 +325,21 @@
         font-size: 14px;
     }
 }
+
+@media (orientation: landscape) {
+    .top__inner {
+        padding: 30px;
+        max-width: 50%;
+    }
+
+    .title {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 17px;
+    }
+
+    .link {
+        padding: 12px 40px;
+        font-size: 20px;
+    }
+}
