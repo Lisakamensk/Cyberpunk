@@ -1,6 +1,7 @@
 // Slider
 var swiper = new Swiper(".headerSwiper", {
     effect: "fade",
+    loop: true,
     autoplay: {
         delay: 6000,
         disableOnInteraction: false,
