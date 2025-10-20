@@ -204,7 +204,7 @@ body {
 }
 
 .social__link--1 {
-    background-image: url(../images/youtube.svg);
+    background-image: url(../images/vk.svg);
 }
 
 .social__link--2 {
@@ -212,11 +212,11 @@ body {
 }
 
 .social__link--3 {
-    background-image: url(../images/facebook.svg);
+    background-image: url(../images/vk.svg);
 }
 
 .social__link--4 {
-    background-image: url(../images/twitter.svg);
+    background-image: url(../images/vk.svg);
 }
 
 .social__link--5 {
@@ -224,7 +224,7 @@ body {
 }
 
 .social__link--6 {
-    background-image: url(../images/instagram.svg);
+    background-image: url(../images/vk.svg);
 }
 
 .top {
@@ -617,4 +617,5 @@ only screen and (min-resolution: 192dpi) {
     font-size: 12px;
     text-align: center;
     color: #fff;
+
 }
